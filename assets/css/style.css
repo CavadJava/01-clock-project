@@ -1,0 +1,21 @@
+ .clock{
+    font-size:200px;
+    font-family: sans-serif;
+    color:#ADD8E6;
+    border:4px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    padding: 40px;
+ }
+
+ .clock span {
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    font-weight: bold;
+ }
