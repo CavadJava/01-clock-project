@@ -19,4 +19,11 @@ function updateClock() {
     minute.textContent = m;
     second.textContent = s;
 }
-setInterval(updateClock, 1000);
+let updateCLockVar = setInterval(updateClock, 1000);
+
+document.querySelector(".startBtn").addEventListener("click", ()=>{
+    updateCLockVar = setInterval(updateClock, 1000);
+});
+document.querySelector(".stopBtn").addEventListener("click", () => {
+    clearInterval(updateCLockVar);
+})

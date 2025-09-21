@@ -19,3 +19,22 @@
     padding: 20px 40px;
     font-weight: bold;
  }
+
+ .btn {
+    font-size: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+ }
+
+ .startBtn {
+    background-color: #4CAF50;
+    color: white;
+ }
+
+ .stopBtn {
+    background-color: #f44336;
+    color: white;
+ }
