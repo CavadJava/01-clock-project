@@ -44,7 +44,8 @@ document.querySelector(".timerBtn").addEventListener("click", () => {
     document.querySelector("#timer").textContent = `${timer}`;
         document.querySelector(".timerBtn").textContent = 'Triggered';
     setTimeout(() => {
-        document.querySelector("#timer").textContent = 'done';
+        document.querySelector("#timer").textContent = '...';
+        document.querySelector(".timerBtn").textContent = 'Timeout';
         document.querySelector(".timerBtn").disabled = false;
         updateCLockVar = setInterval(updateClock, 1000);
     }, timer * 1000);
